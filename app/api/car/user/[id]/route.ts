@@ -11,7 +11,7 @@ export const GET = async (req: Request, { params }: { params: { id: string } }) 
     return NextResponse.json(allCars, { status: 200 });
   } catch (error) {
     console.error({ error });
-    return NextResponse.json('Failed to retrieve cars', { status: 500 });
+    return NextResponse.json('Failed to fetch cars', { status: 500 });
   }
 };
 
