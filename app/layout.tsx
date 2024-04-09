@@ -25,6 +25,7 @@ export default function RootLayout({
               <Navbar />
               {children}
             </main>
+            <Footer />
             <Toaster
               position="top-left"
               reverseOrder={false}
