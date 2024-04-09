@@ -43,7 +43,7 @@ const Catalogue = ({ allCars, limit, isLoading }: CatalogueProps) => {
         {allCars?.length === 0 && !isLoading ? (
           <p className="text-center text-xl w-full">No cars found</p>
         ) : (
-          allCars?.slice(0, 4).map((car, i) => <CarCard key={i} car={car} />)
+          allCars?.slice(0, 3).map((car, i) => <CarCard key={i} car={car} />)
         )}
         {isLoading &&
           Array(4)

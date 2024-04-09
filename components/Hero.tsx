@@ -41,7 +41,7 @@ const Hero = () => {
       <div className="flex items-end lg:flex-[1.25] justify-end w-full h-[590px] lg:h-screen ">
         <div className="w-full h-full relative">
           <Image
-            src={"/images/main-car.png"}
+            src={"/images/main-car-2.png"}
             alt="hero"
             quality={100}
             fill

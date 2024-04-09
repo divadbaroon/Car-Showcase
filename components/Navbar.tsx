@@ -8,6 +8,9 @@ import ThemeSwitcher from './theme/ThemeSwitcher';
 import { BsGithub, BsTwitter } from 'react-icons/bs';
 import { useTheme } from 'next-themes';
 import { RiLogoutBoxLine, RiMenu3Line } from 'react-icons/ri';
+
+import  tntlogo  from '@/public/images/tntlogo.png';
+
 const Navbar = () => {
   const { data: session, } = useSession();
   const [providers, setProviders] = useState<any>(null);
@@ -34,7 +37,7 @@ const Navbar = () => {
             height={20}
             className='h-full object-contain'
           /> */}
-          <span className='text-xl md:text-3xl text-indigo-700 font-bold dark:text-white'>Carsify</span>
+          <span className='text-xl md:text-3xl text-indigo-700 font-bold dark:text-white'>LimoTrack</span>
         </Link>
 
 
@@ -42,9 +45,6 @@ const Navbar = () => {
         <div className='hidden md:flex items-center  gap-3 '>
           <Link href={'/view-all'} >
             <span>Search</span>
-          </Link>
-          <Link href={'/rent-car'} onClick={() => setIsDropdownShown(false)}>
-            <span>AddCar</span>
           </Link>
           
           {
@@ -78,14 +78,17 @@ const Navbar = () => {
             )
           }
           <div className='flex items-center gap-4 border-l dark:border-slate-600 ml-4 pl-4'>
-            <Link href={'https://github.com/Iamsidar07/Car-Showcase'} onClick={() => setIsDropdownShown(false)} className='flex  gap-2'>
-              <BsGithub size={20} className={`h-6 w-6  ${theme === 'dark' ? 'text-slate-400' : 'text-slate-700'}`} />
-            </Link>
-            <Link href={'https://twitter.com/iamsidar07'} onClick={() => setIsDropdownShown(false)} className='flex gap-2'>
-              <BsTwitter size={20} className={`h-6 w-6 ${theme === 'dark' ? 'text-slate-400' : 'text-slate-700'}`} />
-            </Link>
-            <ThemeSwitcher />
-          </div>
+          <Link href={'https://www.tntlimousine.com/fleet'} onClick={() => setIsDropdownShown(false)} className='flex gap-2'>
+            <Image
+              src={tntlogo}
+              alt='TNT Logo'
+              width={40}
+              height={40}
+              className='object-contain mt-1'
+            />
+          </Link>
+          <ThemeSwitcher />
+        </div>
          
           
         </div>

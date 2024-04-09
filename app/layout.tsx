@@ -5,7 +5,7 @@ import { ReactNode } from 'react';
 import { Toaster } from 'react-hot-toast';
 
 export const metadata = {
-  title: 'Carshub',
+  title: 'LimoTrack',
   description: 'Find, book, rent a car—quick and super easy!',
 }
 
