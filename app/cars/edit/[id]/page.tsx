@@ -1,6 +1,6 @@
 'use client'
 import { FormEvent, useEffect, useState } from 'react';
-import { Form } from '@/components';
+import Form from '../../../components/Form';
 import { CarInfoProps } from '@/types';
 import toast from 'react-hot-toast';
 import useWindowSize from 'react-use/lib/useWindowSize';
@@ -14,6 +14,7 @@ const EditCar = ({ params }: { params: { id: string } }) => {
         location: '',
         rentPrice: 0,
         capacity: 0,
+        description: '',
         fuelCapacity: 0,
         shortDescription: '',
         typeOfclass: '',

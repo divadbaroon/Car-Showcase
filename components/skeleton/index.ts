@@ -1,3 +1,3 @@
 import ProfileSkeleton from "./Profile/ProfileSkeleton";
-import CarCardSkeleton from "./CarCard/CarCardSkeleton";
+import CarCardSkeleton from "../../app/components/CarCardSkeleton";
 export { ProfileSkeleton,CarCardSkeleton };

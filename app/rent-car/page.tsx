@@ -1,5 +1,5 @@
 'use client'
-import { Form } from '@/components';
+import Form from '../components/Form';
 import {  CarInfoProps } from '@/types';
 import { useSession } from 'next-auth/react';
 import { FormEvent, useState, useEffect } from 'react';
@@ -17,6 +17,7 @@ const RentACar = () => {
         carTitle: '',
         carType: '',
         cityMPG: 0,
+        description: '',
         highwayMPG: 0,
         combinationMPG: 0,
         cylinders: 0,

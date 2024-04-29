@@ -1,6 +1,7 @@
 'use client'
-import { CarCard } from '@/components';
-import { CarCardSkeleton } from '@/components/skeleton';
+import CarCard from '../../components/CarCard';
+import CarCardSkeleton from '../../components/CarCardSkeleton';
+
 import { CarProps } from '@/types';
 import { useEffect, useState } from 'react';
 import toast from 'react-hot-toast';

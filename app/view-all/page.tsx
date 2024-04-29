@@ -1,5 +1,5 @@
 'use client'
-import { ShowAllCars } from '@/components';
+import ShowAllCars from '../components/ShowAllCars';
 import { CarProps, FetchCarProps } from '@/types';
 import { useEffect, useState } from 'react';
 import toast from 'react-hot-toast';

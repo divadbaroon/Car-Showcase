@@ -1,5 +1,5 @@
 import React from 'react'
-import CarCardSkeleton from '../CarCard/CarCardSkeleton'
+import CarCardSkeleton from '../../../app/components/CarCardSkeleton'
 
 const ProfileSkeleton = () => {
     return (
