@@ -83,10 +83,7 @@ const ShowAllCars = ({ allCars, limit, isLoading }: ShowAllCarsProps) => {
 
   const filterData: FilterCardProps[] = [
     { title: 'Brand', category: 'brand', options: availableFilterBrandOptions },
-    { title: 'Drive', category: 'drive', options: availableFilterDriveOptions },
     { title: 'Class', category: 'type', options: availableFilterTypeOptions },
-    { title: 'Fuel Type', category: 'fuelType', options: availableFilterFuelTypeOptions },
-    { title: 'Cylinders', category: 'cylinders', options: availableFilterCylindersOptions },
   ]
 
 

@@ -23,7 +23,7 @@ const Filter = () => {
     return (
         <div className='flex items-center space-x-2 w-full md:w-fit'>
             <CustomSelect label='Choose Type' onChange={handleModelChange} options={vehicleType} containerStyle='z-40 border bg-white dark:bg-slate-800 dark:border-slate-700 rounded-md' name='model'/>
-            <CustomSelect label='Choose Model' onChange={handleFuelTypeChange} options={vehicleBrands} containerStyle='border bg-white  dark:bg-slate-800 dark:border-slate-700 rounded-md' name='fueltype'/>
+            <CustomSelect label='Choose Brand' onChange={handleFuelTypeChange} options={vehicleBrands} containerStyle='border bg-white  dark:bg-slate-800 dark:border-slate-700 rounded-md' name='fueltype'/>
         </div>
     )
 }
