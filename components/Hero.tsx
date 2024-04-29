@@ -19,10 +19,9 @@ const Hero = () => {
                 theme === "dark" ? "text-pink-600" : "text-indigo-600"
               } truncate`}
             >
-              Hey🙋‍♀️, {session.user?.name?.split(" ")[0]} <br />
             </span>
           )}
-          Find, book, rent a car quick and super easy!
+          Find and book your ideal rental car with ease.
         </h1>
 
         <p className="text-xl md:text-2xl md:mt-6 mt-4 mb-4 lg:mb-8 text-slat-600 dark:text-slate-400">

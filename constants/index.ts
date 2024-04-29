@@ -43,7 +43,7 @@ export const manufacturers = [
 ];
 
 export const yearsOfProduction = [
-    { title: 'Year', value: 'year' },
+    { title: 'Type', value: 'type' },
     { title: '2015', value: '2015' },
     { title: '2016', value: '2016' },
     { title: '2017', value: '2017' },
@@ -53,6 +53,13 @@ export const yearsOfProduction = [
     { title: '2021', value: '2021' },
     { title: '2022', value: '2022' },
     { title: '2023', value: '2023' },
+];
+
+export const vehicleType = [
+    { title: 'All', value: 'all' },
+    { title: 'Van', value: 'van' },
+    { title: 'Limousine', value: 'limousine' },
+    { title: 'SUV', value: 'suv' }
 ];
 
 export const fuels = [
@@ -67,6 +74,29 @@ export const fuels = [
     {
         title: 'Electricity',
         value: 'Electricity',
+    },
+];
+
+export const vehicleBrands = [
+    {
+        title: 'All',
+        value: 'all',
+    },
+    {
+        title: 'Mercedes Benz',
+        value: 'Mercedes Benz',
+    },
+    {
+        title: 'Lincoln',
+        value: 'Lincoln',
+    },
+    {
+        title: 'Ford',
+        value: 'Ford',
+    },
+    {
+        title: 'Turtle Top',
+        value: 'Turtle Top',
     },
 ];
 
