@@ -73,7 +73,7 @@ const ReservationSystem = () => {
         <div>
             <form onSubmit={handleSubmit}>
             <div className="flex flex-col items-center justify-center">
-                <label className="block text-sm font-medium text-gray-900 dark:text-white mt-4 text-center">Pick a Date</label>
+                <label className="block text-sm font-medium text-gray-900 dark:text-white mt-4 text-center mb-2">Pick a Date</label>
                 <div className="relative w-full max-w-sm">
                     <input
                     type="date"
