@@ -4,7 +4,7 @@ import { useSession } from 'next-auth/react';
 import React, { ChangeEvent, useEffect, useState } from 'react'
 import CustomSelect from './CustomSelect';
 import ImageUploader from './ImageUploader';
-import CustomButton from './CustomButton';
+import CustomButton from '../app/components/CustomButton';
 import CustomInput from './CustomInput';
 import { yearsOfProduction } from '@/constants';
 import toast from 'react-hot-toast';

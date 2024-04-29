@@ -9,10 +9,10 @@ const Filter = () => {
     const router = useRouter();
 
     const handleFuelTypeChange = (value: string) => {
-        updateSearchParamsAndPush('fuel_type',value.toLowerCase());
+        updateSearchParamsAndPush('model',value.toLowerCase());
     }
     const handleModelChange = (value: string) => {
-        updateSearchParamsAndPush('year',value);
+        updateSearchParamsAndPush('typeOfclass',value);
     }
 
     const updateSearchParamsAndPush = (type: string, value: string) => {

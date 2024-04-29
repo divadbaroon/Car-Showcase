@@ -9,11 +9,15 @@
     "lint": "next lint"
   },
   "dependencies": {
+    "@radix-ui/react-separator": "^1.0.3",
     "@types/node": "20.2.5",
     "autoprefixer": "10.4.14",
+    "class-variance-authority": "^0.7.0",
     "cloudinary": "^1.37.3",
+    "clsx": "^2.1.1",
     "eslint": "8.42.0",
     "eslint-config-next": "13.4.4",
+    "lucide-react": "^0.376.0",
     "mongoose": "^7.3.0",
     "next": "^13.4.4",
     "next-auth": "^4.22.1",
@@ -27,11 +31,17 @@
     "react-hot-toast": "^2.4.1",
     "react-icons": "^4.10.1",
     "react-use": "^17.4.0",
-    "tailwindcss": "3.3.2",
+    "tailwind-merge": "^2.3.0",
+    "tailwindcss-animate": "^1.0.7",
     "typescript": "5.1.3"
   },
   "devDependencies": {
     "@types/react": "^18.2.13",
-    "@types/react-dom": "^18.2.6"
-  }
+    "@types/react-dom": "^18.2.6",
+    "tailwindcss": "^3.4.3"
+  },
+  "description": "A website designed for TNT Company, a local car company, to showcase their vehicles and streamline their reservation process. The platform aims to enhance the company's online presence and improve customer experience by providing a convenient way to view available vehicles and make reservations.",
+  "main": "next.config.js",
+  "author": "",
+  "license": "ISC"
 }

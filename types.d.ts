@@ -8,6 +8,7 @@ export interface FuelsProps {
 export interface CarProps {
     capacity: number;
     carTitle: string;
+    description: string;
     carType: string;
     cityMPG: number;
     cylinders: number;

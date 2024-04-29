@@ -2,7 +2,7 @@
 import Image from 'next/image';
 import Link from 'next/link';
 import React, { useEffect, useState } from 'react';
-import CustomButton from './CustomButton';
+import CustomButton from '../app/components/CustomButton';
 import { getProviders, signIn, signOut, useSession } from 'next-auth/react';
 import ThemeSwitcher from './theme/ThemeSwitcher';
 import { BsGithub, BsTwitter } from 'react-icons/bs';

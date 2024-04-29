@@ -1,4 +1,4 @@
-import { Footer, Navbar, Provider } from '@/components';
+import { Footer, Navbar, Provider } from './components';
 import CustomThemeProvider from '@/components/theme/CustomThemeProvider';
 import '@/styles/globals.css';
 import { ReactNode } from 'react';

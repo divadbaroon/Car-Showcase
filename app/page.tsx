@@ -1,5 +1,5 @@
 'use client'
-import { Catalogue,  Hero} from '@/components';
+import { Catalogue,  Hero} from './components';
 import { CarProps, FetchCarProps } from '@/types';
 import { useEffect, useState } from 'react';
 import toast from 'react-hot-toast';

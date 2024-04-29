@@ -1,5 +1,6 @@
 "use client";
-import { CustomButton } from "@/components";
+import CustomButton from './CustomButton';
+
 import { useSession } from "next-auth/react";
 import { useTheme } from "next-themes";
 import Image from "next/image";

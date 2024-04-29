@@ -1,13 +1,13 @@
 "use client";
-import Filter from "./Filter";
-import Searchbar from "./Searchbar";
-import CarCard from "./CarCard";
+import Filter from "../../components/Filter";
+import Searchbar from "../../components/Searchbar";
+import CarCard from "../../components/CarCard";
 import CustomButton from "./CustomButton";
 import { CatalogueProps } from "@/types";
 import { updateSearchParams } from "@/utils";
 import { useRouter } from "next/navigation";
 import Link from "next/link";
-import { CarCardSkeleton } from "./skeleton";
+import { CarCardSkeleton } from "../../components/skeleton";
 
 const Catalogue = ({ allCars, limit, isLoading }: CatalogueProps) => {
   const router = useRouter();

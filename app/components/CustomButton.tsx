@@ -1,5 +1,5 @@
 import { CustomButtonProps } from "@/types";
-import Loader from "./Loader";
+import Loader from "../../components/Loader";
 
 const CustomButton = ({ title, handleClick, containerStyle, type,isLoading,icon }: 
   CustomButtonProps) => {
