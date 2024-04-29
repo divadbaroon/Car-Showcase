@@ -58,7 +58,7 @@ const CardDetails = ({ params }: { params: { id: string } }) => {
                     </h4>
                     <hr className="w-1/3 border-gray-300 dark:border-gray-700 mt-1" />
 
-                    <p className="font-normal">${car.rentPrice} per day</p>
+                    <p className="font-normal">${car.rentPrice} per hour</p>
                   </div>
                   <div className="w-1/2">
                     <h4 className="md:text-lg font-semibold capitalize">

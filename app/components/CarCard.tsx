@@ -145,7 +145,7 @@ const CarCard = ({
             <span className="text-lg md:text-2xl font-bold text-center ml-2">
               {car.rentPrice?.toFixed(2)}
             </span>
-            <span className="absolute bottom-0 text-xs font-bold">/day</span>
+            <span className="absolute bottom-0 text-xs font-bold">/hour</span>
           </div>
           <Link href={`/cars/${car._id}`}>
             <CustomButton
