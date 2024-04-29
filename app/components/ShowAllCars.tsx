@@ -3,11 +3,11 @@ import { CarProps, FilterCardProps, FilterProps, ShowAllCarsProps } from '@/type
 import { updateSearchParams } from '@/utils';
 import { useRouter } from 'next/navigation';
 import React, { ChangeEvent, useState } from 'react'
-import CustomButton from '../app/components/CustomButton';
+import CustomButton from './CustomButton';
 import CarCard from './CarCard';
 import { availableFilterBrandOptions, availableFilterCylindersOptions, availableFilterDriveOptions, availableFilterFuelTypeOptions, availableFilterTypeOptions } from '@/constants';
 import Image from 'next/image';
-import { CarCardSkeleton } from './skeleton';
+import { CarCardSkeleton } from '../../components/skeleton';
 
 const ShowAllCars = ({ allCars, limit, isLoading }: ShowAllCarsProps) => {
   const router = useRouter();

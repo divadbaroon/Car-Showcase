@@ -1,7 +1,7 @@
 "use client";
 import Filter from "../../components/Filter";
 import Searchbar from "../../components/Searchbar";
-import CarCard from "../../components/CarCard";
+import CarCard from "./CarCard";
 import CustomButton from "./CustomButton";
 import { CatalogueProps } from "@/types";
 import { updateSearchParams } from "@/utils";

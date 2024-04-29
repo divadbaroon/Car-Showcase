@@ -1,6 +1,6 @@
 "use client";
 import Image from "next/image";
-import CustomButton from "../app/components/CustomButton";
+import CustomButton from "./CustomButton";
 import { CardCardProps } from "@/types";
 import Link from "next/link";
 import { useState } from "react";

@@ -2,10 +2,10 @@
 import { FormProps } from '@/types';
 import { useSession } from 'next-auth/react';
 import React, { ChangeEvent, useEffect, useState } from 'react'
-import CustomSelect from './CustomSelect';
-import ImageUploader from './ImageUploader';
-import CustomButton from '../app/components/CustomButton';
-import CustomInput from './CustomInput';
+import CustomSelect from '../../components/CustomSelect';
+import ImageUploader from '../../components/ImageUploader';
+import CustomButton from './CustomButton';
+import CustomInput from '../../components/CustomInput';
 import { yearsOfProduction } from '@/constants';
 import toast from 'react-hot-toast';
 
