@@ -114,7 +114,7 @@ const CarCard = ({
               height={15}
               className="object-contain"
             />
-            <span className="text-gray-400 text-sm">Manual</span>
+            <span className="text-gray-400 text-sm">{car.transmission}</span>
           </div>
           <div className="flex  items-center justify-center gap-1">
             <Image
